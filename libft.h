@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rugrigor <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: rugrigor <rugrigor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 10:59:22 by rugrigor          #+#    #+#             */
-/*   Updated: 2023/02/01 11:55:55 by rugrigor         ###   ########.fr       */
+/*   Updated: 2023/07/03 14:30:05 by rugrigor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ int		ft_tolower(int c);
 char	*ft_strchr(char *str, int n);
 char	*ft_strrchr(const char *str, int n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strcpm(char *s1, char *s2);
 void	*ft_memset(void *str, int c, size_t n);
 void	*ft_memcpy(void *str, const void *dest, size_t n);
 void	*ft_memmove(void *str, const void *dest, size_t n);
@@ -51,6 +52,8 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 char	*ft_itoa(int n);
+void	ft_perror(char *str);
+int		ft_strcmp(char *s1, char *s2);
 
 typedef struct s_list
 {

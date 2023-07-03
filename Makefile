@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rugrigor <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: rugrigor <rugrigor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/16 13:39:19 by rugrigor          #+#    #+#              #
-#    Updated: 2023/01/30 18:44:45 by rugrigor         ###   ########.fr        #
+#    Updated: 2023/07/03 14:30:36 by rugrigor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,7 @@ SRCS =  ft_memset.c		\
 		ft_tolower.c	\
 		ft_strchr.c		\
 		ft_strrchr.c	\
+		ft_strcmp.c		\
 		ft_strncmp.c	\
 		ft_strlcpy.c	\
 		ft_strlcat.c	\
@@ -49,7 +50,9 @@ SRCS =  ft_memset.c		\
 		ft_putchar_fd.c	\
 		ft_putstr_fd.c	\
 		ft_putendl_fd.c	\
-		ft_putnbr_fd.c
+		ft_putnbr_fd.c	\
+		ft_perror.c		\
+		ft_strcmp.c		\
 
 SRCSB =	ft_lstnew.c			\
 		ft_lstadd_front.c	\
